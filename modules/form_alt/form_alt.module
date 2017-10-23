@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Change node create page elements color.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function form_alt_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'node_page_form') {
+
+    // Attach the js file to make the modifications.
+    $form['#attached']['library'][] = 'form_alt/form_alt_lib';
+  }
+}
