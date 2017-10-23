@@ -1,5 +1,0 @@
-<?php
-
-  function dpm_form_alter(&$form, $form_state, $form_id) {
-  dpm($form);
-}
