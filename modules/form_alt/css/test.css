@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Stylesheet for the node create form.
+ */
+
+#edit-title-wrapper {
+    color: #red;
+    font-size: 20px;
+    background-color: green;
+}
