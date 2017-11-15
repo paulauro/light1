@@ -1,0 +1,25 @@
+uuid: 4124fcba-d0df-4afe-996f-e6e2cde77ab7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9c22f59b-3c6a-40a5-b2f3-7460dcf706e4'
+  module:
+    - block_content
+  theme:
+    - bootstrapsub
+id: rightsidebar
+theme: bootstrapsub
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:9c22f59b-3c6a-40a5-b2f3-7460dcf706e4'
+settings:
+  id: 'block_content:9c22f59b-3c6a-40a5-b2f3-7460dcf706e4'
+  label: 'right sidebar'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

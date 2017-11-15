@@ -1,0 +1,25 @@
+uuid: f6ce2f01-3940-44c0-88b5-694c3136294e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:070c51a6-08f4-4d4f-9f0c-b64a235e2910'
+  module:
+    - block_content
+  theme:
+    - bootstrapsub
+id: leftsidebar
+theme: bootstrapsub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:070c51a6-08f4-4d4f-9f0c-b64a235e2910'
+settings:
+  id: 'block_content:070c51a6-08f4-4d4f-9f0c-b64a235e2910'
+  label: 'left sidebar'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

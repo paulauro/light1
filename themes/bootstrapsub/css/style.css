@@ -1,3 +1,40 @@
-/**
- * Place your custom styles here.
- */
+/* Iphone 4 and 5 portait: */
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: #ADFF2F;
+    }
+}
+
+/* Iphone 6 portait: */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/* Iphone 6 landscape : */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+}
+/* Ipad portait : */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* Ipad landscap, Desktop : */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-color: #8FBC8F;
+    }
+}
+
+/* Desktop : */
+@media only screen and (min-width: 1201px) {
+    body {
+        background-color: #FF7F50;
+    }
+}

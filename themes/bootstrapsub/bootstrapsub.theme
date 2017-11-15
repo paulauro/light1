@@ -17,5 +17,8 @@ function bootstrapsub_preprocess_html(&$variables) {
   // Add information about the number of sidebars.
  
 
-
 }
+
+
+
+
