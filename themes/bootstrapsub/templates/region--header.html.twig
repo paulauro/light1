@@ -1,0 +1,74 @@
+	
+		
+			<div class="us-masthead"><!-- start us-masthead -->
+				<div class="usa-banner col-xs-12">
+
+					<img class="usa-banner__us-flag" src="/{{ directory }}/assets/images/US_Flag-2.png" alt="U.S. flag" />
+
+					<span>An official website of the United States government</span>
+					<a data-toggle="collapse" data-target="#USABannerMenu" class="" href="javascript:void(0);"><span>Here’s how you know</span> <span class="toggle-indicator"> </span></a>
+					<div class="col-xs-12 collapse usa-banner__menu" id="USABannerMenu" aria-labelledby="USMenuButton">
+						<div id="gov-banner" class="row usa-banner-content usa-grid usa-accordion-content" aria-hidden="true">
+							      <div class="col-xs-12 col-sm-6 col-md-3">
+							        <img class="usa-banner-icon usa-media_block-img" src="/{{ directory }}/assets/images/icon-dot-gov.svg" alt="Dot gov" style="width:3em;">
+									<div class="usa-media_block-body">
+								      <p><strong>The .gov means it’s official.</strong><br>Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.</p>
+								    </div>
+							      </div>
+							      <div class="col-xs-12 col-sm-6 col-md-3">
+							        <img class="usa-banner-icon usa-media_block-img" src="/{{ directory }}/assets/images/icon-https.svg" alt="SSL" style="width:3em;">
+							        <div class="usa-media_block-body">
+								         <p><strong>The site is secure.</strong><br> The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.</p>
+							        </div>
+							      </div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- end us-masthead -->
+
+
+
+			<div class="fda-masthead"><!-- start fda-masthead -->
+
+				<div class="col-xs-2 col-md-1 col-md-push-11"> <!-- menu -->
+					<a class="btn btn-default btn-sm fda-masthead__btn-menu" href="#"><span class="fa fa-bars" aria-hidden="true">&nbsp;</span> Menu</a>
+				</div>
+
+
+				<div class="col-xs-8 col-md-6 col-md-pull-1 fda-masthead-logo"><!-- logo --> 
+					<div class="gov-webicon fda blue">
+						<h1><a href="#" title="FDA Homepage">U.S. Food and Drug Administration</a></h1>
+					</div>
+				</div>
+
+
+				<div class="col-xs-12 col-md-5 col-md-pull-1"> <!-- search --> 
+					<div id="search-form" class="fda-masthead__search col-xs-12 col-md-9 pull-right">
+						<form role="search" action="{{ search_form_action }}" method="GET" id="usasearch-search-block-form searchbox" accept-charset="UTF-8" data-drupal-form-fields="query,edit-submit">
+							
+							<div class="search-popover" id="search-popover">
+								<div class="input-group pull-right" id="input-group">
+									<label class="sr-only" for="search">Search FDA</label>
+									<input accesskey="4" class="form-control search-input usagov-search-autocomplete" id="query" name="query" aria-autocomplete="list" aria-haspopup="true" data-drupal-selector="edit-query" title="Enter the terms you wish to search for." placeholder="Search FDA" autocomplete="{{ search_autocomplete }}" type="text" /> 
+									<span class="input-group-btn" id="input-group-btn">
+										<button data-drupal-selector="edit-submit" type="submit" class="btn btn-danger search-btn" id="search-btn" title="Search"><span class="fa fa-search" aria-hidden="true"><span class="sr-only">Submit search</span></span></button>
+									</span>
+								</div>
+							</div>
+														
+							<input data-drupal-selector="edit-affiliate" name="affiliate" value="{{ search_affilate }}" type="hidden">							
+						</form>
+						<!-- Hide DigitalGov block in page so that 'search while you type' functionality works. -->
+						<div style="display: none;">
+							{{ block_usasearchform }}
+						</div>
+					</div>
+					
+				</div>
+
+			</div><!-- end fda-masthead -->
+
+
+
+

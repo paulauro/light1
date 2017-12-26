@@ -1,0 +1,10 @@
+/* line 1, ../sass/header.scss */
+body {
+  background-color: #eee !important;
+}
+/* line 3, ../sass/header.scss */
+body p.diff {
+  color: #99000;
+  background-color: #eee;
+  margin: 6px;
+}
